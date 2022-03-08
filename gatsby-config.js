@@ -32,10 +32,10 @@ module.exports = {
           },
         ],
         externalLinks: [
-          // {
-          //   name: `Twitter`,
-          //   url: `https://twitter.com/lekoarts_de`,
-          // },
+          {
+            name: `Twitter`,
+            url: `https://twitter.com/lekoarts_de`,
+          },
           {
             name: `Linkedin`,
             url: `www.linkedin.com/in/designerhye`,
