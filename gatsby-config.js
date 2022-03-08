@@ -33,10 +33,6 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
             name: `Linkedin`,
             url: `www.linkedin.com/in/designerhye`,
           },
@@ -48,14 +44,14 @@ module.exports = {
       options: {
         enableListener: true,
         preconnect: [`https://fonts.gstatic.com`],
-        interval: 300,
-        timeout: 30000,
+        interval: 0,
+        timeout: 10000,
         // If you plan on changing the font you'll also need to adjust the Theme UI config to edit the CSS
         // See: https://github.com/LekoArts/gatsby-themes/tree/main/examples/minimal-blog#changing-your-fonts
         web: [
           {
-            name: `Pretendard`,
-            file: `https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css`,
+            name: `pretendard`,
+            file: `https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css`,
           },
         ],
       },
@@ -137,6 +133,9 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-theme-ui`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {

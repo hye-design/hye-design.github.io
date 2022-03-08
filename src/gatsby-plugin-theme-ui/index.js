@@ -3,7 +3,7 @@ import originalTheme from "@lekoarts/gatsby-theme-minimal-blog/src/gatsby-plugin
 
 const theme = merge(originalTheme, {
   fonts: {
-    body: `"Pretendard", monospace`,
+    body: `pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;`,
   },
 });
 
