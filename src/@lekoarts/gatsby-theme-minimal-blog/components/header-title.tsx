@@ -15,7 +15,7 @@ const HeaderTitle = () => {
       aria-label={`${siteTitle} - Back to home`}
       sx={{ color: `heading`, textDecoration: `none` }}
     >
-      <div sx={{ my: 0, fontWeight: `medium`, fontSize: [1,2,5] }}>{siteTitle}</div>
+      <div sx={{fontWeight: `medium`, fontSize: [1,2,5] }}>{siteTitle}</div>
     </Link>
   )
 }

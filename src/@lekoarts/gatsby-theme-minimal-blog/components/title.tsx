@@ -12,7 +12,7 @@ type TitleProps = {
 const Title = ({ text, children, as = `h2`, className = `` }: TitleProps) => (
   <div
     sx={{
-        fontSize:'1,2,5',
+        fontSize:'16px',
         justifyContent: `space-between`,
         alignItems: `center`,
         borderBottomStyle: `solid`,
