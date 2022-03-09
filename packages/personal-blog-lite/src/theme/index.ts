@@ -9,8 +9,8 @@ export const theme = {
   lineHeights: {
     normal: 1,
     normalText: 1.5,
-    title: 2,
-    text: 2,
+    title: 1.6,
+    text: 1.6,
   },
   letterSpacings: {
     normal: "normal",

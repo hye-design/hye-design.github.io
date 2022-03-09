@@ -8,6 +8,7 @@ export const IntroWrapper = styled.div`
   padding: 100px 10px 100px 10px;
   display: flex;
   align-items: center;
+
   @media (max-width: 1400px) {
     padding: 120px 10px 120px 10px;
   }
@@ -25,13 +26,14 @@ export const IntroWrapper = styled.div`
 `;
 
 export const IntroImage = styled.div`
-  width: 270px;
-  height: 270px;
+  width: 250px;
+  height: 250px;
   padding: 10px;
   border-radius: 50%;
   margin: 0 auto;
   border: 1px solid ${themeGet('colors.lightBorderColor', '#ededed')};
   flex-shrink: 0;
+  
   @media (max-width: 990px) {
     width: 220px;
     height: 220px;
@@ -79,8 +81,10 @@ export const Desciption = styled.p`
 `;
 
 export const IntroInfo = styled.div`
+  width:700px;
   padding-left: 30px;
   @media (max-width: 575px) {
     padding-left: 0;
+    width:auto
   }
 `;
