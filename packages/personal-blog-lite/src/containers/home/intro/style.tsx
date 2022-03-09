@@ -81,7 +81,7 @@ export const Desciption = styled.p`
 `;
 
 export const IntroInfo = styled.div`
-  width:700px;
+  width:485px;
   padding-left: 30px;
   @media (max-width: 575px) {
     padding-left: 0;
