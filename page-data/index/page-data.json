@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-homepage-query-tsx",
+    "componentChunkName": "component---src-pages-index-tsx",
     "path": "/",
-    "result": {"data":{"allPost":{"nodes":[{"slug":"/test","title":"TEST","date":"08.03.2022","excerpt":"히힛호호호gghghgh","timeToRead":1,"description":null,"tags":null},{"slug":"/이거슨-타이틀입니다","title":"이거슨 타이틀입니다","date":"03.06.2021","excerpt":"헤헷","timeToRead":1,"description":null,"tags":null}]}},"pageContext":{"formatString":"DD.MM.YYYY"}},
-    "staticQueryHashes": ["2744905544","3090400250","318001574"]}
+    "result": {"data":{"site":{"siteMetadata":{"title":"StoryHub","description":"A Gatsby Blog"}}},"pageContext":{}},
+    "staticQueryHashes": ["1317451774","2254173662","493466976","63159454"]}
