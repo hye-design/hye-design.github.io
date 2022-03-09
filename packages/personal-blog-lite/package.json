@@ -66,9 +66,7 @@
     "@types/styled-system__theme-get": "^5.0.2",
     "@types/url-join": "^4.0.1",
     "@types/yup": "^0.29.13",
-    "prettier": "^2.4.1",
-    "@mdx-js:mdx":"^1.6.5",
-    "@mdx-js/react":"^1.6.5"
+    "prettier": "^2.4.1"
   },
   "main": "n/a",
   "scripts": {
@@ -79,6 +77,6 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js",
     "predeploy": "yarn build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   }
 }
