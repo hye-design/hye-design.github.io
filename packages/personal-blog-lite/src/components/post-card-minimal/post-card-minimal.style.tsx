@@ -83,7 +83,7 @@ export const PostDate = styled.div`
 `;
 
 export const PostContent = styled.div`
-  align-self: center;
+  
 `;
 
 export const PostTitle = styled.h2`
@@ -144,17 +144,11 @@ export const PostTags = styled.div`
 
 export const PostDateAndPreview = styled.div`
   position: relative;
-  margin-right: 45px;
   flex-shrink: 0;
   overflow: hidden;
   height: 170px;
   width: 170px;
-  @media (max-width: 1200px) {
-    margin-right: 35px;
-  }
-  @media (max-width: 990px) {
-    margin-right: 25px;
-  }
+
   @media (max-width: 575px) {
     height: auto;
     width: auto;
