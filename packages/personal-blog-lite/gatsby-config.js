@@ -3,6 +3,7 @@ require('dotenv').config({
 });
 
 module.exports = {
+  pathPRefix : "/hye-design.github.io",
   siteMetadata: {
     title: `StoryHub`,
     author: `David`,
