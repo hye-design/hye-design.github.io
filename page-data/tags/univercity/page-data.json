@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-tsx",
+    "path": "/tags/univercity/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"텅","fields":{"slug":"/02/"},"frontmatter":{"date":"31 <span> January </span>","title":"슬기롭지 못한 대학생활","tags":["study","univercity"],"description":"슬기롭지 못한 대학생활, 이렇게 하면 힘듭니다."}}}]}},"pageContext":{"tag":"univercity"}},
+    "staticQueryHashes": ["2254173662","63159454"]}

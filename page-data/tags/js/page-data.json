@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-tags-tsx",
-    "path": "/tags/js/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"Steve Holt! No, I did not kill Kitty. However, I am going to oblige and answer the nice officer’s questions because I am an honest man with no secrets to hide. I don’t criticize you! And if you’re worried about criticism, sometimes a diet is the best defense. Army had half a day. Marry me. We just…","fields":{"slug":"/a-peek-into/"},"frontmatter":{"date":"27 <span> May </span>","title":"A Peek Into Scandinavia's Origin","tags":["react","js","markdown"],"description":"Steve Holt! No, I did not kill Kitty. However, I am going to oblige and answer the nice officer’s questions because I am an honest man with no secrets to hide. I don’t criticize you! And if you’re worried about criticism, sometimes a diet is the best defense."}}}]}},"pageContext":{"tag":"js"}},
-    "staticQueryHashes": ["2254173662","63159454"]}
