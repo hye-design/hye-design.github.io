@@ -2,7 +2,7 @@
 title: Locale Selector 개선하기
 date: '2022-03-09T19:51:37.121Z'
 cover: './preview.jpg'
-tags: ['design', 'uiux', 'UIUX 심리학', 'Fitt's Law']
+tags: ['design', 'uiux', 'UIUX 심리학']
 ---
 
 내가 프로덕트 디자이너로서 관리하는 사이트는 글로벌 사이트이다. 
