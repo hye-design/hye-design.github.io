@@ -38,7 +38,7 @@ const SocialLinks = [
 const Intro: React.FunctionComponent<IntroProps> = () => {
   const Data = useStaticQuery(graphql`
     query {
-      avatar: file(absolutePath: { regex: "/author.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/author.png/" }) {
         childImageSharp {
           gatsbyImageData(
             layout: FULL_WIDTH
