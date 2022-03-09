@@ -148,10 +148,12 @@ export const PostDateAndPreview = styled.div`
   overflow: hidden;
   height: 170px;
   width: 170px;
+  margin-right:25px
 
   @media (max-width: 575px) {
     height: auto;
     width: auto;
+    margin-right:0px
   }
 `;
 
