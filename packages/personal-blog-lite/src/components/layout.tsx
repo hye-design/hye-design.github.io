@@ -25,7 +25,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children }) => {
 
         <Footer>
           Copyright &copy; {new Date().getFullYear()}
-          <a href="https://redq.io/"> RedQ, Inc.</a>
+          <a href="https://hye-design/github.io"> HYE DESIGN</a>
         </Footer>
         <ScrollToTop
           showUnder={300}
