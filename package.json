@@ -36,7 +36,8 @@
     "serve:beauty": "yarn workspace @blog/beauty serve",
     "dev:romantic": "yarn workspace @blog/romantic develop",
     "build:romantic": "yarn workspace @blog/romantic build",
-    "serve:romantic": "yarn workspace @blog/romantic serve"
+    "serve:romantic": "yarn workspace @blog/romantic serve",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
   "devDependencies": {
     "husky": "^7.0.4",
