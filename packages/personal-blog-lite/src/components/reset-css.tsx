@@ -51,7 +51,7 @@ const ResetCSS = createGlobalStyle`
   }
 
   body {
-    font-family: 'Fira Sans',sans-serif;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
     margin: 0;
     padding: 0;
     font-size: 15px;
@@ -60,11 +60,11 @@ const ResetCSS = createGlobalStyle`
   }
 
   p{
-    line-height: 2;
+    line-height: 1.8;
     margin: 0 0 1.7em 0;
   }
   
-  input, textarea, select, button{font-family: 'Fira Sans',sans-serif;}
+  input, textarea, select, buttonPretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
 
   ul,ol {
     margin: 0;
@@ -81,7 +81,7 @@ const ResetCSS = createGlobalStyle`
   }
 
   blockquote{
-    font-family: 'Poppins',sans-serif;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
     font-weight: 500;
   }
 

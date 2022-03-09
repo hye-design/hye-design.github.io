@@ -180,7 +180,7 @@ export const PostDescription = styled.div`
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
     font-weight: 500;
-    line-height: 2;
+    line-height: 1.6;
     margin: 60px 0;
     @media (max-width: 1200px) {
       margin: 50px 0;
@@ -220,7 +220,7 @@ export const PostDescription = styled.div`
     p {
       font-size: 21px;
       font-weight: 500;
-      line-height: 2;
+      line-height: 1.6;
       margin-bottom: 23px;
       @media (max-width: 1200px) {
         font-size: 19px;
@@ -238,7 +238,7 @@ export const PostDescription = styled.div`
     h4 {
       font-size: 16px;
       margin: 0;
-      font-family: 'Fira Sans', sans-serif;
+      font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
       font-weight: 400;
     }
   }

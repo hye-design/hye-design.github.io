@@ -67,7 +67,8 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
         </DrawerProvider>
         <Logo>
           <Link to="/">
-            <img src={LogoImage} alt="logo" />
+            {/* <img src={LogoImage} alt="logo" /> */}
+            HYE DESIGN
           </Link>
         </Logo>
         <MenuWrapper>

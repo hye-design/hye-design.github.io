@@ -32,6 +32,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/fonts`,
+        name: `fonts`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -113,16 +120,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-lodash`,
     },
-    {
-      resolve: `gatsby-plugin-web-font-loader`,
-      options: {
-        google: {
-          families: [
-            'Poppins:300,400,500,600,700',
-            'Fira Sans:100,300,400,500,600,700',
-          ],
-        },
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-web-font-loader`,
+    //   options: {
+    //     google: {
+    //       families: [
+    //         'Poppins:300,400,500,600,700',
+    //         'Fira Sans:100,300,400,500,600,700',
+    //       ],
+    //     },
+    //   },
+    // },
   ],
 };

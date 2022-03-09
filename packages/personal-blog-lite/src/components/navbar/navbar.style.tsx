@@ -26,14 +26,19 @@ export const NavbarWrapper = styled.div`
 `;
 
 export const Logo = styled.div`
+  font-size:28px;
+  font-weight: 700;
   margin-right: 50px;
+  color:#212121;
   flex-shrink: 0;
   @media (max-width: 990px) {
     margin: 0 25px;
   }
   @media (max-width: 575px) {
-    max-width: 90px;
+    max-width: 120px;
+    font-size:20px;
   }
+  a{color:#212121}
   img {
     display: block;
     max-width: 100%;

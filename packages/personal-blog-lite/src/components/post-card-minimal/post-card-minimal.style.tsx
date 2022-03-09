@@ -92,7 +92,7 @@ export const PostTitle = styled.h2`
   color: ${themeGet('colors.textColor', '#292929')};
   line-height: 1.53;
   margin-bottom: 10px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
   a {
     color: ${themeGet('colors.textColor', '#292929')};
   }
@@ -113,7 +113,7 @@ export const Excerpt = styled.p`
   font-size: ${themeGet('fontSizes.3', '15')}px;
   color: ${themeGet('textColor', '#292929')};
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.6;
   margin-bottom: 0;
   @media (max-width: 990px) {
     font-size: 14px;

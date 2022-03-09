@@ -54,14 +54,13 @@ export const IntroImage = styled.div`
 
   > div {
     border-radius: 50%;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
   }
 `;
 
 export const IntroTitle = styled.h1`
   font-size: 30px;
   font-weight: 400;
-  font-family: ${themeGet('fontFamily.1', "'Poppins', sans-serif")};
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
   color: ${themeGet('colors.textColor', '#292929')};
   margin-bottom: 20px;
   @media (max-width: 990px) {
@@ -76,7 +75,7 @@ export const IntroTitle = styled.h1`
 export const Desciption = styled.p`
   color: ${themeGet('colors.textColor', '#292929')};
   font-size: ${themeGet('fontSizes.3', '15')}px;
-  line-height: ${themeGet('lineHeights.text', '2')};
+  line-height: ${themeGet('lineHeights.text', '1.6')};
 `;
 
 export const IntroInfo = styled.div`

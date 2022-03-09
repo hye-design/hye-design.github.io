@@ -34,7 +34,7 @@ export const SecTitle = styled.div`
   color: ${themeGet('colors.textColor', '#292929')};
   font-size: 16px;
   font-weight: 500;
-  font-family: ${themeGet('fontFamily.0', "'Fira Sans',sans-serif")};
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
   letter-spacing: 0.17em;
   position: relative;
   margin-bottom: 30px;
