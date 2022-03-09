@@ -5,7 +5,7 @@ export const IntroWrapper = styled.div`
   width: 940px;
   max-width: 100%;
   margin: 0 auto;
-  padding: 150px 10px 150px 10px;
+  padding: 100px 10px 100px 10px;
   display: flex;
   align-items: center;
   @media (max-width: 1400px) {
