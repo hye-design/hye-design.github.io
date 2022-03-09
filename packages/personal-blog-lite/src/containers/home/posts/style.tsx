@@ -35,7 +35,6 @@ export const SecTitle = styled.div`
   font-size: 16px;
   font-weight: 500;
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-  letter-spacing: 0.17em;
   position: relative;
   margin-bottom: 30px;
 

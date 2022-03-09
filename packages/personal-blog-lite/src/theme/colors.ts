@@ -11,6 +11,8 @@ const colors = {
   lightBorderColor: "#ededed", //9
   primary: "#D10068", // 10
   primaryHover: "#D10068", // 11
+  linkText: "#3886FF", //12
+  linkHover : "#116AF4" //13
 }
 
 export default colors

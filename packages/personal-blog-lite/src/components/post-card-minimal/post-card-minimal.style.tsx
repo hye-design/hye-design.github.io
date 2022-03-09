@@ -96,6 +96,9 @@ export const PostTitle = styled.h2`
   a {
     color: ${themeGet('colors.textColor', '#292929')};
   }
+  a:hover{
+    text-decoration : underline;
+  }
   @media (max-width: 1200px) {
     font-size: 21px;
   }
@@ -162,11 +165,11 @@ export const ReadMore = styled.div`
   margin-top: 16px;
   a {
     font-size: 13px;
-    font-weight: 500;
-    color: ${themeGet('textColor', '#292929')};
+    font-weight: 600;
+    color: ${themeGet('linkText', '#3886FF')};
     transition: 0.15s ease-in-out;
     &:hover {
-      color: ${themeGet('primary', '#D10068')};
+      color: ${themeGet('linkHover', '#116AF4')};
     }
   }
 `;
