@@ -12,9 +12,6 @@ export const BlogPostsWrapper = styled.div`
   @media (min-width: 1200px) {
     width: 1050px;
   }
-  @media (min-width: 1400px) {
-    width: 1170px;
-  }
   @media (max-width: 990px) {
     padding: 80px 45px 0 45px;
   }
@@ -150,9 +147,6 @@ export const TagPostsWrapper = styled.div`
   }
   @media (min-width: 1200px) {
     width: 1050px;
-  }
-  @media (min-width: 1400px) {
-    width: 1170px;
   }
   @media (max-width: 990px) {
     padding: 80px 45px 30px 45px;
