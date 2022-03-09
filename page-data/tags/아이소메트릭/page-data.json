@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-tsx",
+    "path": "/tags/아이소메트릭/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"텅","fields":{"slug":"/02/"},"frontmatter":{"date":"31 <span> January </span>","title":"아이소메트릭 수강을 했다.","tags":["노트폴리오","아이소메트릭","study"],"description":"혼자서는 도저히 안될때 도움 받는 법"}}}]}},"pageContext":{"tag":"아이소메트릭"}},
+    "staticQueryHashes": ["2254173662","63159454"]}
