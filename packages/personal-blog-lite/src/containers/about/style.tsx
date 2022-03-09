@@ -17,7 +17,7 @@ export const AboutPageTitle = styled.div`
   @media (max-width: 767px) {
     margin-bottom: 30px;
   }
-  h2 {
+  h2 { 
     font-size: 30px;
     font-weight: 700;
     color: ${themeGet('colors.textColor', '#292929')};
@@ -34,12 +34,17 @@ export const AboutPageTitle = styled.div`
 `;
 
 export const AboutImage = styled.div`
+  width:900px;
+  margin:0 auto;
   margin-bottom: 90px;
   @media (max-width: 990px) {
     margin-bottom: 60px;
+    width: 80%;
   }
   @media (max-width: 767px) {
     margin-bottom: 40px;
+    width: 80%;
+
   }
 `;
 
