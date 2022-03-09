@@ -1,9 +1,9 @@
 ---
-title: 슬기롭지 못한 대학생활
+title: 아이소메트릭 수강을 했다.
 date: '2022-01-31'
-description: 슬기롭지 못한 대학생활, 이렇게 하면 힘듭니다.
-tags: ['study', 'univercity']
-cover: './preview.jpg'
+description: 
+tags: ['노트폴리오', '아이소메트릭', 'study',]
+cover: './preview.png'
 ---
 
 텅
