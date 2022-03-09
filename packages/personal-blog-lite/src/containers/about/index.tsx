@@ -3,8 +3,6 @@ import { useStaticQuery, graphql } from 'gatsby';
 import GatsbyImage from '../../components/gatsby-image';
 import SocialProfile from '../../components/social-profile/social-profile';
 import {
-  IoLogoFacebook,
-  IoLogoTwitter,
   IoLogoInstagram,
   IoLogoLinkedin,
 } from 'react-icons/io';
@@ -18,23 +16,13 @@ import {
 
 const SocialLinks = [
   {
-    icon: <IoLogoFacebook />,
-    url: 'https://www.facebook.com/redqinc/',
-    tooltip: 'Facebook',
-  },
-  {
     icon: <IoLogoInstagram />,
-    url: 'https://www.instagram.com/redqinc/',
+    url: 'https://www.instagram.com/yudi_photo/',
     tooltip: 'Instagram',
   },
   {
-    icon: <IoLogoTwitter />,
-    url: 'https://twitter.com/redqinc',
-    tooltip: 'Twitter',
-  },
-  {
     icon: <IoLogoLinkedin />,
-    url: 'https://www.linkedin.com/company/redqinc/',
+    url: 'www.linkedin.com/in/designerhye',
     tooltip: 'Linked In',
   },
 ];
@@ -65,11 +53,9 @@ const About: React.FunctionComponent<AboutProps> = () => {
   return (
     <AboutWrapper>
       <AboutPageTitle>
-        <h2>About StoryHub</h2>
+        <h2>Seonhye Park</h2>
         <p>
-          StoryHub is a beautiful Gatsby Blog theme designed to showcase your
-          work in style. Perfect for designers, artists, photographers and
-          developers to use for their portfolio website.
+          저는 프로덕트 디자이너입니다. 당신의 경험이 다정하길 바랍니다.
         </p>
       </AboutPageTitle>
 
@@ -78,18 +64,11 @@ const About: React.FunctionComponent<AboutProps> = () => {
       </AboutImage>
 
       <AboutDetails>
-        <h2>Hey there, what’s up?</h2>
+        <h2>Hello, All</h2>
         <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
-        </p>
-        <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
+          2019 ~ Mymusictaste, Product Designer<br />
+          2015.04 ~ 2018.11, Web Designer(Head of WebDesignPart)<br />
+          2013.08 ~ 2015.03, Web Developer
         </p>
 
         <SocialProfiles>
