@@ -10,35 +10,17 @@ import {
   IntroInfo,
 } from './style';
 import {
-  IoLogoFacebook,
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoGithub,
+  IoLogoLinkedin
 } from 'react-icons/io';
 
 type IntroProps = {};
 
 const SocialLinks = [
   {
-    icon: <IoLogoFacebook />,
-    url: '#',
-    tooltip: 'Facebook',
-  },
-  {
-    icon: <IoLogoInstagram />,
-    url: '#',
-    tooltip: 'Instagram',
-  },
-  {
-    icon: <IoLogoTwitter />,
-    url: '#',
-    tooltip: 'Twitter',
-  },
-  {
-    icon: <IoLogoGithub />,
-    url: '#',
-    tooltip: 'Github',
-  },
+    icon: <IoLogoLinkedin />,
+    url: 'www.linkedin.com/in/designerhye',
+    tooltip: 'Linkedin',
+  }
 ];
 
 const Intro: React.FunctionComponent<IntroProps> = () => {
@@ -72,7 +54,7 @@ const Intro: React.FunctionComponent<IntroProps> = () => {
       </IntroImage>
       <IntroInfo>
         <IntroTitle>
-          Hey! I’m <b>Your Designer.</b>
+          HI!👋 I’m <b>Your Designer.</b>
         </IntroTitle>
         <Desciption>{about} <br></br> Product Desgienr at MYMUSICTASTE </Desciption>
         <SocialProfile items={SocialLinks} />

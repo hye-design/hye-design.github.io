@@ -54,8 +54,7 @@ export const SocialProfileItem = styled.li`
 
   a {
     color: ${themeGet('colors.textColor', '#292929')};
-    font-size: 22px;
-    padding: 0.2em;
+    font-size: 24px;
     display: block;
     svg {
       display: block;
