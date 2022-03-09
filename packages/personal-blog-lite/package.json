@@ -76,6 +76,7 @@
     "serve": "gatsby serve",
     "type-check": "tsc --noEmit",
     "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js",
-    "predeploy": "yarn build"
+    "predeploy": "yarn build",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   }
 }
