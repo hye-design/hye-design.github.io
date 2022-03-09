@@ -27,7 +27,7 @@ export const IntroWrapper = styled.div`
 export const IntroImage = styled.div`
   width: 270px;
   height: 270px;
-  padding: 30px;
+  padding: 10px;
   border-radius: 50%;
   margin: 0 auto;
   border: 1px solid ${themeGet('colors.lightBorderColor', '#ededed')};
