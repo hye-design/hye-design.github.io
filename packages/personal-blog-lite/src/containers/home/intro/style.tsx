@@ -26,25 +26,22 @@ export const IntroWrapper = styled.div`
 `;
 
 export const IntroImage = styled.div`
-  width: 250px;
-  height: 250px;
-  padding: 10px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   margin: 0 auto;
   border: 1px solid ${themeGet('colors.lightBorderColor', '#ededed')};
   flex-shrink: 0;
   
   @media (max-width: 990px) {
-    width: 220px;
-    height: 220px;
-    padding: 25px;
+    width: 180px;
+    height: 180px;
     margin-bottom: 25px;
   }
   @media (max-width: 990px) {
-    width: 180px;
-    height: 180px;
-    padding: 20px;
-    margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
   }
 
   img {

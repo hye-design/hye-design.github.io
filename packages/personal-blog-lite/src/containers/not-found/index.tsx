@@ -38,8 +38,8 @@ const NotFound: React.FunctionComponent<NotFoundProps> = () => {
       <NotFoundContent>
         <h1>This Page Was Lost</h1>
         <p>
-          The Page You are looking for isn’t available. Try to search again or
-          use the Go Back button below.
+          입력하신 페이지를 찾을 수가 없습니다. 다시 검색을 시도하시거나, 아래의 버튼을 이용해 뒤로 돌아가주세요 :)<br />
+          The Page You are looking for isn’t available. Try to search again or use the Go Back button below.
         </p>
         <Goback>
           <Link to="/">
@@ -50,9 +50,9 @@ const NotFound: React.FunctionComponent<NotFoundProps> = () => {
           </Link>
         </Goback>
       </NotFoundContent>
-      <NotFoundImage>
+      {/* <NotFoundImage>
         <GatsbyImage src={Data.avatar.childImageSharp.gatsbyImageData} alt="not found" />
-      </NotFoundImage>
+      </NotFoundImage> */}
     </NotFoundWrapper>
   );
 };

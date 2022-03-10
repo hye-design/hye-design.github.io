@@ -23,8 +23,8 @@ export const NotFoundWrapper = styled.div`
 `;
 
 export const NotFoundContent = styled.div`
-  flex: 0 0 35%;
-  max-width: 35%;
+  flex: 0 0 80%;
+  max-width: 80%;
   padding-right: 100px;
   @media (max-width: 1400px) {
     flex: 0 0 45%;

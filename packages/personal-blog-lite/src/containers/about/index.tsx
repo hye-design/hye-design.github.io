@@ -53,10 +53,7 @@ const About: React.FunctionComponent<AboutProps> = () => {
   return (
     <AboutWrapper>
       <AboutPageTitle>
-        <h2>Seonhye Park</h2>
-        <p>
-          저는 프로덕트 디자이너입니다. 당신의 경험이 다정하길 바랍니다.
-        </p>
+        <h2>About</h2>
       </AboutPageTitle>
 
       <AboutImage>
@@ -64,7 +61,10 @@ const About: React.FunctionComponent<AboutProps> = () => {
       </AboutImage>
 
       <AboutDetails>
-        <h2>Hello, All</h2>
+        <h2><b>Hello, All</b></h2>
+        <p>
+          저는 프로덕트 디자이너입니다. 당신의 경험이 다정하기를 바랍니다.
+        </p>
         <p>
           2019 ~ Mymusictaste, Product Designer<br />
           2015.04 ~ 2018.11, Web Designer(Head of WebDesignPart)<br />

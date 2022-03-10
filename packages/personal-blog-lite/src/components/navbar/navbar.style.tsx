@@ -210,7 +210,7 @@ export const DrawerContentWrapper = styled.div`
     display: block;
     padding-top: 60px;
     li {
-      margin: 0 0 38px 0;
+      margin: 0 0 25px 0;
       a {
         display: block;
         position: relative;
@@ -246,10 +246,12 @@ export const DrawerHead = styled.div`
 `;
 
 export const DrawerLogo = styled.div`
-  max-width: 110px;
   padding-left: 30px;
   img {
     max-width: 100%;
+  }
+  a{
+    color: ${themeGet('colors.textColor', '#292929')};
   }
 `;
 
