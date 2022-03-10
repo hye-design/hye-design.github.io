@@ -4,10 +4,18 @@ import { themeGet } from '@styled-system/theme-get';
 export const AboutWrapper = styled.div`
   position: relative;
   padding: 90px 75px 0 75px;
+  display : flex;
+  align-items: flex-start;
+  margin:0 auto;
+  width: 1180px;
+
   @media (max-width: 990px) {
     padding: 80px 45px 30px 45px;
+    flex-direction: column;
+    width:100%;
   }
   @media (max-width: 575px) {
+    width:100%;
     padding: 60px 25px 0 25px;
   }
 `;
@@ -34,32 +42,34 @@ export const AboutPageTitle = styled.div`
 `;
 
 export const AboutImage = styled.div`
-  width:900px;
+  width:100%;
+  max-width:700px;
   margin:0 auto;
-  margin-bottom: 90px;
   @media (max-width: 990px) {
     margin-bottom: 60px;
-    width: 80%;
+    width: 60%;
   }
   @media (max-width: 767px) {
     margin-bottom: 40px;
-    width: 80%;
+    width: 40%;
 
   }
 `;
 
 export const AboutDetails = styled.div`
-  width: 870px;
   max-width: 100%;
   margin: 0 auto;
+  padding-left: 50px;
+  flex:0 0 50%;
 
   h2 {
-    font-size: 21px;
+    font-size: 28px;
     font-weight: 500;
     color: ${themeGet('colors.textColor', '#292929')};
     margin-bottom: 40px;
     @media (max-width: 990px) {
       margin-bottom: 30px;
+      padding-left: 0px;
     }
     @media (max-width: 767px) {
       font-size: 18px;

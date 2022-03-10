@@ -16,11 +16,10 @@ export const PostPreview = styled.div`
     content: '';
     position: absolute;
     width: 80%;
-    height: 80%;
+    height: auto;
     background-color: #757575;
     bottom: 0;
     left: 10%;
-    filter: blur(15px);
   }
 `;
 

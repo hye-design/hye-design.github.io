@@ -29,6 +29,11 @@ const MenuItems = [
     label: 'About',
     url: '/about',
   }
+  // ,
+  // {
+  //   label: 'Project',
+  //   url: '/project',
+  // }
 ];
 
 const Navbar: React.FunctionComponent<NavbarProps> = ({
