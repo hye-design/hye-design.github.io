@@ -57,7 +57,7 @@ const Posts: React.FunctionComponent<PostsProps> = () => {
 
   return (
     <BlogPostsWrapper>
-      <SecTitle>LEATEST STORIES</SecTitle>
+      <SecTitle>LATEST STORIES <p> ✨ 태그를 이용하면, 쉽게 분류해서 글을 보실 수 있어요.</p></SecTitle>
       {Posts.map(({ node }: any) => {
         const title = node.frontmatter.title || node.fields.slug;
         return (

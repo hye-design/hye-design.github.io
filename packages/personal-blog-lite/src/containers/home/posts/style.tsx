@@ -43,6 +43,11 @@ export const SecTitle = styled.div`
     display: block;
     margin-top: 8px;
   }
+  p{
+    margin-top: 4px;
+    font-size:14px;
+    color: ${themeGet('colors.lightTextColor: "#757575"', '#757575')};
+  }
 `;
 
 export default BlogPostsWrapper;
