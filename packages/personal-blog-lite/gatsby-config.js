@@ -121,6 +121,13 @@ module.exports = {
       resolve: `gatsby-plugin-lodash`,
     },
     // {
+    //   resolve: "gatsby-plugin-mailchimp",
+    //   options: {
+    //     // endpoint: 'https://github.us14.list-manage.com/subscribe/post?u=a448528a962379cef10386242&amp;id=531debb809', // string; add your MC list endpoint here; see instructions below
+    //     timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+    //   },
+    // },
+    // {
     //   resolve: `gatsby-plugin-web-font-loader`,
     //   options: {
     //     google: {

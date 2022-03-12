@@ -55,7 +55,7 @@ const BlogList = (props: any) => {
 export default BlogList;
 
 export const pageQuery = graphql`
-  query($skip: Int!, $limit: Int!) {
+  query ($skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
         title
@@ -65,6 +65,7 @@ export const pageQuery = graphql`
       path
     }
     allMarkdownRemark(
+      filter: { frontmatter: { tags: { nin: ["project"] } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip

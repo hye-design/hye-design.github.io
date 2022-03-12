@@ -3,6 +3,7 @@ import { Formik, FormikProps, Form } from 'formik';
 import * as Yup from 'yup';
 import Input from '../../components/input/input';
 import Button from '../../components/button/button';
+import addToMailchimp from 'gatsby-plugin-mailchimp';
 import {
   ContactWrapper,
   ContactPageTitle,
@@ -23,16 +24,17 @@ const SignupSchema = Yup.object().shape({
 });
 
 const Contact: React.SFC<{}> = () => {
+  const handleSubmit = React.useCallback(
+    async (values: MyFormValues, actions: any) => {
+      await addToMailchimp(values.email, values);
+      actions.setSubmitting(false);
+    },
+    []
+  );
   return (
     <Formik
       initialValues={{ firstName: '', email: '', message: '' }}
-      onSubmit={(values: MyFormValues, actions: any) => {
-        setTimeout(() => {
-          console.log({ values, actions });
-          alert(JSON.stringify(values, null, 2));
-          actions.setSubmitting(false);
-        }, 700);
-      }}
+      onSubmit={handleSubmit}
       validationSchema={SignupSchema}
       render={({
         handleChange,
@@ -47,9 +49,7 @@ const Contact: React.SFC<{}> = () => {
             <ContactWrapper>
               <ContactPageTitle>
                 <h2>Contact</h2>
-                <p>
-                  문의주실 내용이 있으시다면, 해당 페이지를 이용해주세요 :)
-                </p>
+                <p>문의주실 내용이 있으시다면, 해당 페이지를 이용해주세요 :)</p>
               </ContactPageTitle>
               <ContactFromWrapper>
                 <InputGroup>
