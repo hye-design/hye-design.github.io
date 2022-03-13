@@ -65,7 +65,7 @@ export const pageQuery = graphql`
       path
     }
     allMarkdownRemark(
-      filter: { frontmatter: { tags: { nin: ["project"] } } }
+      filter: { frontmatter: { tags: { nin: ["Portfolio"] } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip

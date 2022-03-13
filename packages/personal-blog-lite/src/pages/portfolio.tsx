@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
-import PersonalBlog from '../containers/project';
+import PersonalBlog from '../containers/portfolio';
 import SEO from '../components/seo';
 
 const HomePage = (props: any) => {

@@ -22,7 +22,7 @@ const Posts: React.FunctionComponent<PostsProps> = () => {
       allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
         limit: 5
-        filter: { frontmatter: { tags: { in: ["project"] } } }
+        filter: { frontmatter: { tags: { in: ["Portfolio"] } } }
       ) {
         totalCount
         edges {
