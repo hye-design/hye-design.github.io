@@ -8,8 +8,10 @@ export const PostCardWrapper = styled.div`
 export const PostPreview = styled.div`
   margin-bottom: 45px;
   position: relative;
+  height:400px;
   img {
     border-radius: 3px;
+    height: 400px;
   }
 
   &:before {

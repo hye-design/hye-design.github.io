@@ -33,6 +33,7 @@ const PostDetails: React.FunctionComponent<PostDetailsProps> = ({
   ...props
 }) => {
   const addClass: string[] = ['post_details'];
+  const disableImages = preview == null || true;
 
   if (imagePosition == 'left') {
     addClass.push('image_left');
@@ -46,7 +47,7 @@ const PostDetails: React.FunctionComponent<PostDetailsProps> = ({
     <PostDetailsWrapper {...props} className={addClass.join(' ')}>
       {imagePosition == 'left' ? (
         <>
-          {preview == null ? null : (
+          {disableImages ? null : (
             <PostPreview className="post_preview">
               <GatsbyImage src={preview} alt={title} />
             </PostPreview>
@@ -67,7 +68,7 @@ const PostDetails: React.FunctionComponent<PostDetailsProps> = ({
 
       {imagePosition == 'top' ? (
         <>
-          {preview == null ? null : (
+          {disableImages ? null : (
             <PostPreview className="post_preview">
               <GatsbyImage src={preview} alt={title} />
             </PostPreview>

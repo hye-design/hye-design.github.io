@@ -5,19 +5,21 @@ export const PostDetailsWrapper = styled.div`
   position: relative;
 
   &.image_left {
+    margin-bottom:40px;
+    // height:400px;
     @media (min-width: 991px) {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: flex-start;
+      // display: flex;
+      // flex-wrap: wrap;
+      // justify-content: center;
+      // align-items: flex-start;
     }
     .post_preview {
       margin-top: 0;
       @media (min-width: 991px) {
-        flex: 0 0 42%;
-        max-width: 42%;
-        padding-right: 60px;
+        // flex: 0 0 42%;
+        max-width: 100%;
         margin: 0;
+        margin-bottom:40px;
         &:before {
           width: calc(80% - 60px);
         }
@@ -26,8 +28,7 @@ export const PostDetailsWrapper = styled.div`
     .post_des_wrapper {
       @media (min-width: 991px) {
         flex: 0 0 58%;
-        max-width: 58%;
-        margin: 0;
+        // margin: 0;
       }
       .post_des {
         margin-top: 60px;
@@ -73,6 +74,7 @@ export const PostDate = styled.span`
 export const PostPreview = styled.div`
   margin-top: 45px;
   position: relative;
+  height:400px;
   @media (max-width: 1200px) {
     margin-top: 40px;
   }
@@ -82,6 +84,7 @@ export const PostPreview = styled.div`
 
   img {
     border-radius: 3px;
+    height: 400px;
   }
 
   &:before {
@@ -97,6 +100,7 @@ export const PostPreview = styled.div`
 `;
 
 export const PostDescriptionWrapper = styled.div`
+  margin:0 auto;
   margin-top: 90px;
   margin-left: auto;
   margin-right: auto;

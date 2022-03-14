@@ -51,8 +51,6 @@ export const AboutImage = styled.div`
   }
   @media (max-width: 767px) {
     margin-bottom: 40px;
-    width: 40%;
-
   }
 `;
 
@@ -62,8 +60,7 @@ export const AboutDetails = styled.div`
   padding-left: 50px;
   flex:0 0 50%;
 
-  h2 {
-    font-size: 28px;
+    font-size: 14px;
     font-weight: 500;
     color: ${themeGet('colors.textColor', '#292929')};
     margin-bottom: 40px;
@@ -72,8 +69,11 @@ export const AboutDetails = styled.div`
       padding-left: 0px;
     }
     @media (max-width: 767px) {
-      font-size: 18px;
+      font-size: 16px;
       margin-bottom: 25px;
+    }
+    @media (max-width: 400px) {
+      padding-left:0;
     }
   }
 `;

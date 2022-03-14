@@ -34,10 +34,10 @@ const MenuItems = [
   //   url: "/contact",
   // },
   // ,
-  {
-    label: 'Portfolio',
-    url: '/portfolio',
-  },
+  // {
+  //   label: 'Portfolio',
+  //   url: '/portfolio',
+  // },
 ];
 
 const Navbar: React.FunctionComponent<NavbarProps> = ({
