@@ -26,6 +26,10 @@ const MenuItems = [
     url: '/',
   },
   {
+    label: 'Portfolio',
+    url: '/portfolio',
+  },
+  {
     label: 'About',
     url: '/about',
   },
@@ -34,10 +38,6 @@ const MenuItems = [
   //   url: "/contact",
   // },
   // ,
-  {
-    label: 'Portfolio',
-    url: '/portfolio',
-  },
 ];
 
 const Navbar: React.FunctionComponent<NavbarProps> = ({
