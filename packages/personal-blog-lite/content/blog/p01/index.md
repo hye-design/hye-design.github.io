@@ -1,9 +1,20 @@
 ---
-title: Project A.
-date: '2022-01-31'
-description: Hehehe
+title: BOOKPAL [마이포켓]
+date: '2018-10-01'
 tags: ['Portfolio']
-cover: './preview.jpg'
+cover: './preview.png'
 ---
 
-Project AAAA
+<img src="/mypocket.png"/>
+
+
+<style>
+    @media (min-width: 991px) { 
+        .gtaBiA{
+            width:1200px !important
+        }
+    }
+    @media (min-width: 950px) { 
+        .post_des_wrapper .gatsby-resp-image-wrapper{max-width:1200px !important}
+    }
+</style>
