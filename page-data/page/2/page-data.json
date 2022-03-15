@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-list-tsx",
+    "path": "/page/2",
+    "result": {"data":{"site":{"siteMetadata":{"title":"HYE DESIGN"}},"sitePage":{"path":"/offline-plugin-app-shell-fallback/"},"allMarkdownRemark":{"edges":[]}},"pageContext":{"limit":5,"skip":5,"numPages":2,"currentPage":2}},
+    "staticQueryHashes": ["2254173662","63159454"]}
