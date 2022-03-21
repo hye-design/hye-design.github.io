@@ -1,5 +1,7 @@
 ---
 title: (2) 제가 너무 초라해 보여요.
+date: '2022-03-13'
+cover: './preview.jpg'
 tags: ['스타트업에서 디자이너로 살아남기', 'Blog', 'Startup']
 ---
 
